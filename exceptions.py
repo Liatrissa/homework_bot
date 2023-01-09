@@ -11,8 +11,3 @@ class RequestExceptionError(Exception):
 class UndocumentedStatusError(Exception):
     """Недокументированный статус."""
     pass
-
-
-class APIResponseError(Exception):
-    """Ошибка в статусе работы"""
-    pass
